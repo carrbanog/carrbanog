@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="clock">00:00</h2>
+    <form class="hidden" id="login-form">
+      <input placeholder="what is your name" />
+      <button>Log in</button>
+    </form>
+
+    <h1 id="gretting" class="hidden"></h1>
+
+    <form id="todo-form">
+      <input type="text" placeholder="write a to do and press enter" />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js "></script>
+    <script src="js/todo.js"></script>
+  </body>
+</html>
