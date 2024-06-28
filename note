@@ -1,0 +1,10 @@
+form안에서 input실행시(클릭, 엔터) 자동으로 submit실행(웹 페이지 새로 고침 실행)
+함수(login())에 ()를 더하면 자동으로 login함수를 실행
+preventDefault()는 JavaScript에서 이벤트의 기본 동작을 방지하기 위해 사용되는 메서드입니다. 이 메서드는 이벤트가 발생했을 때, 브라우저가 기본적으로 수행하는 동작을 막고, 개발자가 원하는 동작을 대신 수행할 수 있게 합니다.요약하자면, preventDefault 메서드는 이벤트의 기본 동작을 막고, 개발자가 원하는 커스텀 동작을 정의할 때 유용하게 사용됩니다.(1번에 input실행시 자동으로 submit실행 하고 새로고침하는걸 막을 수 있음)
+string 부분이 2개 이상이면 const변수로 다시 만들기{login.html 29줄~}
+gretting.innerText = "Hello " + username
+gretting.innerText = `Hello ${username}` 2개 똑같이 작용 밑에것을 추천
+localStorage.setItem("username", username) 으로 데이터 저장 가능
+"1".padStart(2,"0")->문자열이("1") 2자리가 아니면 0을 추가
+JSON.stringify() 제이슨파일로(문자열) 저장(배열처럼 보임)
+JSON.parse()를 사용하면 문자열을 배열로 변환
